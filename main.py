@@ -1,5 +1,15 @@
-
 from Rim import *
 
-rim1 = Rim('XXX')
+rim1 = Rim(input())
+rim2 = Rim(input())
 print(rim1)
+print(rim2)
+print('Проверка меньше', rim1 < rim2)
+print('Сложение',rim1 + rim2)
+print('Равны ли числа', rim1 == rim2)
+print('Вычитание', rim1 - rim2)
+print('Умножение', rim1 * rim2)
+print('Деление', rim1 / rim2)
+print('Больше, либо равно', rim1 >= rim2)
+print('Проверка на больше', rim1 > rim2)
+print('Меньше, либо равно', rim1 <= rim2)
