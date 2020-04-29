@@ -1,6 +1,7 @@
 from space import Ufo
 import turtle as tr
 from random import randint
+import time
 tr.tracer(0)
 
 #u1 = Ufo('Рокетааа-0', 100, 150, 100, 'green', 5, 2, False, False)
@@ -11,6 +12,7 @@ for i in range(50):
     y = randint(-10, 10)
     u1 = Ufo('Рокетааа-0', x, y, 100, 'green', 5, 2, False, False)
     u1.show()
+    time.sleep(1)
     u1.high()
 
 
@@ -18,9 +20,9 @@ for i in range(50):
 #t.speed(0)
 
 #u2.show()
-print(u1.get_name())
+#print(u1.get_name())
 
-u1.set_maid_in= 'USA'
+#u1.set_maid_in= 'USA'
 #print(u1.made_in)\
 #u2.engine_grade = ''
 #print(u2.engine_grade)
